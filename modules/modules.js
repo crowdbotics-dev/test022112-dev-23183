@@ -1,9 +1,7 @@
 import { YourAppModule } from "./yourapp"
 
 const sortNavigators = (a, b) => {
-  if (a.value.hasOwnProperty("navigator") && b.value.hasOwnProperty("navigator")) {
-    return 0;
-  } else if (a.value.hasOwnProperty("navigator")) {
+  if (a.value.hasOwnProperty("navigator")ue.hasOwnProperty("navigator")
     return -1;
   } else {
     return 1;
